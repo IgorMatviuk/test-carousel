@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eaebf6;
+}
+
+.slider-menu {
+  position: relative;
+  margin: 365px 0px 0px 0px;
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+}
+
+.multiple-items {
+  padding: 0px 60px 0px 30px;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  margin: 5px 29px 0px 54px;
+}
+
+.slider-menu .slick-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 23%;
+  z-index: 10;
+  font-size: 0;
+  border: none;
+  margin: 0px 26px 0px 26px;
+}
+
+.slider-menu .slick-arrow.slick-prev {
+  left: 0;
+  background: url("./assets/img/slider/left.svg") 0 0 / 100% no-repeat;
+}
+
+.slider-menu .slick-arrow.slick-next {
+  right: 0;
+  background: url("./assets/img/slider/right.svg") 0 0 / 100% no-repeat;
+}
+
+.slider-menu .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 15px;
+}
+
+.slider-menu .slick-slide:hover {
+  background: #23acde;
+}
+
+.cards-list {
+  margin: 22px 0px 0px 0px;
+}
+
+.card {
+  width: 416px;
+  height: 742px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+  margin: 0px 0px 10px 0px;
+}
+
+.card-blank-wrap-fix {
+  width: 416px;
+  height: 742px;
+  background: transparent;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+@media (max-width: 992px) {
+  .card-blank-wrap-fix {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    margin: 5px 0px 0px 0px;
+  }
+  .multiple-items {
+    padding: 0px 0px 0px 0px;
+  }
+}
